@@ -1,7 +1,6 @@
-export type Board = number[][];
-
-export interface GameState {
-  board: Board;
-  score: number;
-  gameOver: boolean;
+export interface Tile {
+  id: number;
+  value: number;
+  row: number;
+  col: number;
 }
